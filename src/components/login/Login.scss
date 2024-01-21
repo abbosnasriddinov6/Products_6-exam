@@ -1,0 +1,229 @@
+@import'../../scss/main.scss';
+.full{
+    position: relative;
+    display: flex;
+    width: 100%;
+    // border: $border;
+    height: 100vh;
+    .theme{
+        width: 12%;
+        height: 100%;
+        background: #5B5CE2;
+        box-shadow: 10px 0px 50px 0px rgba(0, 0, 0, 0.05);
+        // border: $border;
+        .navbar{
+            width: 100%;
+            height: 40%;
+            // border: $border;
+            .Logo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 40%;
+                // border: $border;
+                .logo{
+                    // border: $border;
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+            .nav{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 35px;
+                width: 100%;
+                height: 60%;
+                // border: $border;
+                button{
+                    width: 49px;
+                    height: 50px;
+                    flex-shrink: 0;
+                    border-radius: 6px;
+                    background: #6C6DE5;
+                    border: none;
+
+                }
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+    .newproduct{
+        width: 90%;
+        height: 100%;
+        // border: $border;
+        .newproducts{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 15%;
+            // border: $border;
+            background: #FFF;
+            box-shadow: 0px 5px 40px 0px rgba(33, 33, 33, 0.05);
+            .new{
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                padding: 40px 90px; 
+                width: 20%;
+                height: 100%;
+                // border: $border;
+                h1{
+                    color: #212121;
+                    font-family: 'Mulish', sans-serif;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;
+    
+                }
+                h4{
+                    color: #B5B5C3;
+                    font-family: 'Mulish', sans-serif;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 21px; /* 161.538% */
+    
+                }
+    
+                .button{
+                    display: flex;
+                    align-items: center;
+                    padding: 10px 12px;
+                    gap: 50px;
+                    border-radius: 6px;
+                    background: #F7F7FF;
+                    border: none;
+                    color: #212121;
+                    font-family: 'Mulish', sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 72%; /* 10.08px */
+                    // border: $border;
+                    img{
+                        width: 30px;
+                    }
+                }
+            }
+        }
+        .result{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            height: 83.8%;
+            background: #EEEEF5;
+            // border: $border;
+            .div{
+                display: flex;
+                justify-content: center;
+                margin-top: 70px;
+                width: 1550px;
+                height: 580px;
+                flex-shrink: 0;
+                border-radius: 12px;
+                background: #FFF;
+                // border: $border;
+                .addyouruser{
+                    gap: 100px;
+                    width: 40%;
+                    height: 100%;
+                    // border: $border;
+                    form{
+                        width: 100%;
+                        height: 100%;
+                        // border: $border;
+                        gap: 100px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        h1{
+                            margin-left: 100px;
+                        }
+                        input{
+                            padding: 20px;
+                            width: 362px;
+                            height: 44px;
+                            flex-shrink: 0;
+                            outline: none;
+                            border-radius: 6px;
+                            background: #F6F6FB;
+                            border: none;
+                            color: var(--Black, #232536);
+
+                            /* Body 1 */
+                            font-family: 'Mulish', sans-serif;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 28px; /* 175% */
+                        }
+                        button{
+                            display: inline-flex;
+                            padding: 15px 24px 14px 24px;
+                            align-items: flex-start;
+                            gap: 19px;
+                            border-radius: 6px;
+                            background: #1BC58D;
+                            color: #FFF;
+                            text-align: center;
+                            font-family: 'Mulish', sans-serif;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 800;
+                            line-height: normal;
+
+                        }
+                        .addyour{
+                            width: 100%;
+                        }
+                    }
+                    .exitbutton{
+                        display: flex;
+                        width: 362px;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 10px;
+                        border-radius: 6px;
+                        background: #1BC58D;
+                        border: none;
+
+                    }
+                   
+                }
+
+            }
+
+            .user{
+                margin-top: 30px;
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                width: 92%;
+                height: 10%;
+                // border: $border;
+
+                a{
+                    color: #80809B;
+                    text-align: right;
+                    font-family: 'Mulish', sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 72%; /* 10.08px */
+
+                }
+            }
+        }
+    }
+    // 
+}

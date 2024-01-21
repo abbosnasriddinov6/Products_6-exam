@@ -1,0 +1,136 @@
+{
+  "products": [
+    {
+      "id": "15",
+      "title": "Eau De Perfume Spray",
+      "description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
+      "brand": "Lord - Al-Rehab",
+      "price": 30,
+      "discountPercentage": 10.99,
+      "category": "fragrances"
+    },
+    {
+      "id": "16",
+      "title": "Hyaluronic Acid Serum",
+      "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
+      "brand": "L'Oreal Paris",
+      "price": 19,
+      "discountPercentage": 13.31,
+      "category": "skincare"
+    },
+    {
+      "id": "18",
+      "title": "Oil Free Moisturizer 100ml",
+      "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
+      "brand": "Dermive",
+      "price": 40,
+      "discountPercentage": 13.1,
+      "category": "skincare"
+    },
+    {
+      "id": "19",
+      "title": "Skin Beauty Serum.",
+      "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
+      "brand": "ROREC White Rice",
+      "price": 46,
+      "discountPercentage": 10.68,
+      "category": "skincare"
+    },
+    {
+      "id": "22",
+      "title": "Elbow Macaroni - 400 gm",
+      "description": "Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
+      "brand": "Bake Parlor Big",
+      "price": 14,
+      "discountPercentage": 15.58,
+      "category": "groceries"
+    },
+    {
+      "id": "23",
+      "title": "Orange Essence Food Flavou",
+      "description": "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
+      "brand": "Baking Food Items",
+      "price": 14,
+      "discountPercentage": 8.04,
+      "category": "groceries"
+    },
+    {
+      "0": {
+        "title": "",
+        "brand": "",
+        "price": "",
+        "discountPercentage": "",
+        "category": ""
+      },
+      "id": "b147",
+      "title": "Name",
+      "brand": "Title",
+      "price": "Brand",
+      "category": "Price",
+      "discountPercentage": "Discount "
+    },
+    {
+      "0": {
+        "title": "",
+        "brand": "",
+        "price": "",
+        "discountPercentage": "",
+        "category": ""
+      },
+      "id": "b702",
+      "title": "Name",
+      "brand": "Title",
+      "price": "Brand",
+      "discountPercentage": "Description",
+      "category": "Price"
+    },
+    {
+      "0": {
+        "title": "",
+        "brand": "",
+        "price": "",
+        "discountPercentage": "",
+        "category": ""
+      },
+      "id": "ef28",
+      "title": "Name",
+      "brand": "Title",
+      "price": "Brand",
+      "discountPercentage": "Description",
+      "category": "Price"
+    },
+    {
+      "0": {
+        "title": "",
+        "brand": "",
+        "price": "",
+        "discountPercentage": "",
+        "category": ""
+      },
+      "id": "1975",
+      "category": "alo"
+    },
+    {
+      "0": {
+        "title": "",
+        "brand": "",
+        "price": "",
+        "discountPercentage": "",
+        "category": ""
+      },
+      "id": "fa90",
+      "category": "Price"
+    },
+    {
+      "0": {
+        "title": "",
+        "brand": "",
+        "price": "",
+        "discountPercentage": "",
+        "category": ""
+      },
+      "id": "4150",
+      "discountPercentage": "Description"
+    }
+  ]
+}

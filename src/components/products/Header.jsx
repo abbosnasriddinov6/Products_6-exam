@@ -109,14 +109,14 @@ const Header = ({user, editproduct, setEditproduct, products, setProducts}) => {
               <div className='navbarrr'>
                 <h1>All Products</h1>
 
-                <select onChange={handling} value={selectcategory} name="selectcategory" id="select">
+                {/* <select onChange={handling} value={selectcategory} name="selectcategory" id="select">
                   <option value="All">All</option>
                   <option value="laptops">laptops</option>
                   <option value="fragrances">fragrances</option>
                   <option value="skincare">skincare</option>
                   <option value="groceries">groceries</option>
                   <option value="groceries">Groceries</option>
-                </select>
+                </select> */}
                 <div className='searchblok'>
                 <form onChange={handlingSearch} >
                   <input type="search" placeholder='Search...' />

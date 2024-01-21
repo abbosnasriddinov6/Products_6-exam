@@ -93,7 +93,7 @@ const Header = ({user, editproduct, setEditproduct, products, setProducts}) => {
               <h4>Main / Products</h4>
             </div>
             <div className='neww'>
-              <h2>{user?`username${user}`:null}</h2>
+              <h2>{user?`username ${user}`:null}</h2>
             </div>
             <div className='new'>
               <Link to='login'>

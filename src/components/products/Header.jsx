@@ -48,16 +48,16 @@ const Header = ({user, editproduct, setEditproduct, products, setProducts}) => {
   //   deleteProducts()
   // },[])
 
-  // const [selectcategory, setSelectcategory] = useState("All")
-  // const [search, setSearch] = useState ('')
-  // const handling = (e) => {
-  //   setSelectcategory(e.target.value)
-  // }
+  const [selectcategory, setSelectcategory] = useState("All")
+  const [search, setSearch] = useState ('')
+  const handling = (e) => {
+    setSelectcategory(e.target.value)
+  }
 
-  // const handlingSearch = (e) => {
-  //   setSearch(e.target.value)
-  // }
-  // const filterProducts = selectcategory === "All" ? products : products.filter((product) => product.category === selectcategory);
+  const handlingSearch = (e) => {
+    setSearch(e.target.value)
+  }
+  const filterProducts = selectcategory === "All" ? products : products.filter((product) => product.category === selectcategory);
 
   // const searchProducts = search ? filterProducts.filter(
   //   (product) => 
